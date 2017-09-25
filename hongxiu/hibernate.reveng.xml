@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="tb_chapter" catalog="red" class="Chapter">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_message" catalog="red" class="Message">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_novel" catalog="red" class="Novel">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_type" catalog="red" class="Type">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_user" catalog="red" class="User">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+	<table name="tb_vip" catalog="red" class="Vip">
+		<primary-key>
+			<generator class="increment"></generator>
+		</primary-key>
+	</table>
+<table name="tb_admin" catalog="red" class="Admin">
+	<primary-key>
+		<generator class="increment"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>
